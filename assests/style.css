@@ -151,13 +151,12 @@ body {
     left: 0;
     right: 0;
     height: 0;
-    background-color: #add8e6;
+    background-color: #2764EB;
     z-index: -1;
     animation: rise 5s infinite alternate;
   }
   
   .wave-container .wave:nth-child(2)::before {  /* Target the ::before */
-    background-color: blue;    
-    opacity: 0.8; 
-    animation-delay: -2s; 
+    
+    animation-delay: -2s;
   }
